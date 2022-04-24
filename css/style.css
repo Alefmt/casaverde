@@ -1,0 +1,223 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 1024px;
+    margin: 0px auto;
+    font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+
+        background-color: #fafafa;
+
+        background-image: url("/assets/Vector.svg");
+        background-repeat: no-repeat;
+        background-position: top -84px right;
+        background-size: 50%;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+ 
+header nav ul {
+    list-style-type: none;
+}
+
+header nav li {
+    display: inline;
+}
+
+header li::after {
+    content: "/";
+    margin: 0 0,8rem;
+}
+
+nav li:last-child::after {
+    content: "";
+}
+
+.artigoprincipal {
+    width: 100%;
+    padding-top: 144px;
+    background: url(/img/imagem-hero1.png) no-repeat top -100px right -40px;
+}
+
+.artigoprincipal h2 {
+    font-size: 22px;
+    opacity: 0.5;
+}
+
+.artigoprincipal h3 {
+    font-size: 82px;
+    font-family: 'Elsie Swash Caps', sans-serif;
+    width: 481px;
+    margin-bottom: 24px;
+}
+
+.artigoprincipal p {
+    width: 481px;
+    opacity: 0.5;
+}
+
+form {
+    width: 500px;
+    height: 75px;
+    display: flex;
+    margin: 35px 0px;
+
+    background-color: #fff;
+
+    box-shadow: 10px 10px 30px 0px #0000000f;
+}
+
+form img {
+    margin-left: 16px;
+    width: 24px;
+}
+
+form input {
+    padding: 16px;
+    border-style: none;
+    width: 55%;
+}
+
+form input::-webkit-input-placeholder {
+    opacity: 0.3;
+}
+
+form button {
+    border-style: none;
+    width: 45%;
+    height: 100%;
+    background-color: #ffcb47;
+    color: #fff;
+}
+
+.artigoprincipal section {
+    margin-left: 8rem;
+    margin-top: 12.5rem;
+    text-align: center;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+
+    box-shadow: 10px 10px 30px 0px #000000;
+}
+
+.artigoprincipal section img {
+    position: relative;
+    height: 360px;
+    left: 0px;
+}
+
+.detalhe li img {
+    width: 52px;
+    height: 52px;
+    vertical-align: middle;
+}
+
+.detalhe li{
+    margin: 27px 0px;
+}
+
+.detalhe h4 {
+    font: 42px 'Elsie Swash Caps', sans-serif;
+
+}
+
+.detalhe {
+    position: relative;
+    text-align: left;
+    padding: 38px 0px 0px 21px;
+}
+
+.detalhe ul {
+    list-style-type: none;
+}
+
+article.ofertas {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 45px;
+}
+
+article.ofertas p {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+article.ofertas h3 {
+    width: 100%;
+    font-family: 'Elsie Swash Caps', sans-serif;
+    font-size: 82px;
+}
+
+article.ofertas div.catalogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+div.produto {
+    display: flex;
+    box-shadow: 10px 10px 30px 0px #00000020;
+    position: relative;
+    align-items: bottom;
+}
+
+div.infoprodutos h4 {
+    font-family: 'Elsie Swash Caps', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: left;
+    width: 100%;
+}
+
+div.infoproduto p {
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+div.produto img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    align-items: baseline;
+}
+
+div.infoproduto a img {
+    width: 16px;
+    height: 16px; 
+    left: -20px;
+    position: relative;
+    object-fit: fill;
+}
+
+div.produto a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+div.infoproduto button {
+    color: rgba(255, 203, 71, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+}
+
+div.infoproduto button:hover {
+    cursor: pointer;
+
+}
